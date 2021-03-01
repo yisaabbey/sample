@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  background-color: cyan;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.profile {
+  width: 500px;
+  border-radius: 15px;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+}
+.photo {
+  background-image: url(images/42-18396041.jpg);
+  background-size: cover;
+  height: 200px;
+}
+.imag {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 5px solid white;
+  overflow: hidden;
+  margin: -70px auto 15px auto;
+}
+.imag img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.card {
+  padding: 0 20px 40px;
+}
+.name {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.age {
+  font-weight: 300;
+  color: grey;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.follow,
+.following,
+.follows {
+  font-weight: 300;
+  color: grey;
+}
+.down {
+  border-top: 1px solid grey;
+  display: flex;
+  padding: 0 20px;
+}
+.down .words {
+  flex: 1;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.down .words .total {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.city {
+  font-size: 20px;
+}
